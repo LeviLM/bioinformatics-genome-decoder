@@ -1,0 +1,12 @@
+=== TASK 3: CODON LENGTH INFERENCE ===
+
+RNA length: 204
+Protein length: 177
+RNA alphabet size: 4
+Protein alphabet size: 20
+Theoretical minimum codon length (k): 3
+
+No fixed-length codon size and reading frame were found that allow the RNA sequence to translate directly into the given protein sequence.
+
+Conclusion: 
+The codon length must be at least 3 based on the RNA and protein alphabet sizes. However, the provided RNA and protein sequences do not correspond via a simple contiguous fixed length translation.

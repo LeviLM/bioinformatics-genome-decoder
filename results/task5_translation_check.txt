@@ -1,0 +1,33 @@
+=== TASK 5: TRANSCRIPTION AND TRANSLATION ===
+
+Inputs:
+  DNA length: 297
+  RNA (given) length: 204
+  Protein (given) length: 177
+
+Transcription (DNA -> RNA):
+  Rule: A->Z, B->Y, C->X, T->U; skip N
+  N bases skipped: 93
+  RNA (transcribed) length: 204
+
+Translation (RNA -> Protein):
+  Codon length k: 3
+  Frame selected (min conflicts): 0
+  Unambiguous codons available: 18
+  Conflicting codons in inferred table: 19
+  Codons translated from transcribed RNA: 68
+  Unknown/ambiguous codons ('?') produced: 49
+
+Comparison (predicted vs given protein):
+  Predicted protein length: 68
+  Overlap compared: 68
+  Comparable positions (pred != '?'): 19
+  Matches: 19
+  Mismatches: 0
+  Unknowns in overlap: 49
+  Identity (matches/comparable): 100.00%
+
+Snippets (first 120 chars):
+  RNA_transcribed: UUZXUZXYUYXXUZYZXZUYUYZXZUYXZUUZYYZUUXZUUYYZUZYZUYYZYZZUZYXYUZZYXYYYXUYXYZXUXUYZUXXYZUZYYZXZXZUXUYXYYZZYUZUYZYXXUZUZZYXX
+  Protein_pred:    A?B??gA??a???A??N?????N??n?i??????????????gA???Ar?r?????lM?L?A??????
+  Protein_given:   AsBeMgAlNaSMgArCNaNaBeNiRnNiMgPbNiKNiNaArMgArNaArArNiLiAlMgLiAlPbNRnArNNArKAlNiLiArCCKNaAlArLiMgNaLiSMgMgLiSAlSRnLiClClR

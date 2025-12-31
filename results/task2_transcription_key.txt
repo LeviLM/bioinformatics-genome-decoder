@@ -1,0 +1,12 @@
+=== TASK 2: TRANSCRIPTION KEY ===
+
+DNA -> RNA base-pairing rules inferred from gene_a / rna_a
+
+Best alignment offset in DNA: 33
+
+  A -> Z
+  B -> Y
+  C -> X
+  T -> U
+
+ALL DNA symbols map consistently to a single RNA symbol.

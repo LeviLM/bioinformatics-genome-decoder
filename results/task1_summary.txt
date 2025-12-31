@@ -1,0 +1,93 @@
+=== TASK 1: NUCLEOTIDES / SYMBOL ANALYSIS ===
+
+[DNA (gene_a)]
+Length: 297
+Unique symbols (5): A, B, C, N, T
+GC content: 0.1717 (17.17%)
+Frequency table (symbol, count, %):
+   N      93   31.31%
+   B      56   18.86%
+   A      52   17.51%
+   C      51   17.17%
+   T      45   15.15%
+Extended pattern analysis (k-mers):
+ Top 10 2-mers:
+   NN : 91
+   BC : 17
+   BA : 17
+   AB : 16
+   AT : 16
+   TA : 15
+   TB : 15
+   CB : 13
+   CC : 13
+   CA : 13
+ Top 10 3-mers:
+   NNN : 89
+   BCC : 8
+   TAB : 8
+   TBC : 7
+   CAT : 7
+   BAC : 6
+   ATB : 6
+   BBA : 6
+   BCB : 6
+   CTA : 5
+
+[RNA (rna_a)]
+Length: 204
+Unique symbols (4): U, X, Y, Z
+GC content: 0.0000 (0.00%)
+Frequency table (symbol, count, %):
+   Y      56   27.45%
+   Z      52   25.49%
+   X      51   25.00%
+   U      45   22.06%
+Extended pattern analysis (k-mers):
+ Top 10 2-mers:
+   YX : 17
+   YZ : 17
+   ZY : 16
+   ZU : 16
+   UZ : 15
+   UY : 15
+   XY : 13
+   XX : 13
+   XZ : 13
+   ZX : 12
+ Top 10 3-mers:
+   YXX : 8
+   UZY : 8
+   UYX : 7
+   XZU : 7
+   YZX : 6
+   ZUY : 6
+   YYZ : 6
+   YXY : 6
+   XUZ : 5
+   XXU : 5
+
+[Protein (protein_a)]
+Length: 177
+Unique symbols (20): A, B, C, K, L, M, N, P, R, S, Z, a, b, e, g, i, l, n, r, s
+Frequency table (symbol, count, %):
+   N      25   14.12%
+   A      20   11.30%
+   i      17    9.60%
+   r      12    6.78%
+   C      11    6.21%
+   l      10    5.65%
+   M       9    5.08%
+   g       9    5.08%
+   a       9    5.08%
+   n       9    5.08%
+   L       9    5.08%
+   R       8    4.52%
+   K       6    3.39%
+   S       5    2.82%
+   B       4    2.26%
+   e       4    2.26%
+   P       4    2.26%
+   b       4    2.26%
+   s       1    0.56%
+   Z       1    0.56%

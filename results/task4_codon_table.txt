@@ -1,0 +1,53 @@
+=== TASK 4: CODON TABLE INFERENCE ===
+
+Assumed codon length (k): 3
+Selected reading frame: 0
+Number of codons mapped: 37
+Conflicting/Ambiguous codons (codon -> multiple amino acids): 19
+
+Total possible codons (|alphabet|^k): 64
+Observed unique codons: 37 (57.81% coverage)
+Unambiguous codons: 18
+
+Unambiguous codons (codon -> amino acid):
+  UUY -> A
+  UUZ -> A
+  UXU -> n
+  UYU -> A
+  UYY -> N
+  XUU -> r
+  XXU -> L
+  XXX -> l
+  XXY -> i
+  XXZ -> A
+  XYU -> B
+  XZU -> a
+  YUX -> A
+  YYU -> r
+  YYX -> N
+  ZXU -> M
+  ZXZ -> g
+  ZYY -> g
+
+Ambiguous codons (codon -> possible amino acids):
+  UXZ -> N, g
+  UYX -> N, i
+  UZY -> L, M, S
+  UZZ -> B, a, n
+  XUZ -> N, s
+  XYX -> A, M, r
+  XZX -> P, i
+  YXX -> A, e, r
+  YXY -> a, b, e
+  YYZ -> A, g, i
+  YZU -> M, N, r
+  YZX -> R, l
+  ZUX -> b, l
+  ZUY -> N, P, a
+  ZUZ -> M, N
+  ZXY -> R, i
+  ZYU -> K, g
+  ZYX -> N, i
+  ZYZ -> C, N, a
+
+Note: conflicts indicate that the RNA/protein sequences may not align as a simple contiguous translation, or that additional rules (e.g., stop codons, splicing, or alternative frames) may apply.
